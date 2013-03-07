@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
-<project name="PHPUnit" default="build">
-    
- <target name="build" depends="phpunit"/>
-
- <target name="phpunit" description="Run unit tests with PHPUnit">
-  <exec executable="php run-phpunit.php" failonerror="true"/>
- </target>
-
+<project name="PHPUnit" default="build">   
+    <target name="build" depends="phpunit"/>
+    <target name="phpunit" description="Run unit tests with PHPUnit">
+        <exec executable="php run-phpunit.php" failonerror="true"/>
+    </target>
 </project>
