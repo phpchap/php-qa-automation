@@ -1,0 +1,6 @@
+{
+    "require": {
+        "phpunit/phpunit-selenium": "1.2.12",    
+        "instaclick/php-webdriver": "1.0.*@dev"
+    }
+}
